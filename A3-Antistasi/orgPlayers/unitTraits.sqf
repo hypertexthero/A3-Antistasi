@@ -46,4 +46,5 @@ if (isMultiPlayer) then
 	{
 	sleep 5;
 	["Unit Traits", format ["You have selected %1",_textX]] call A3A_fnc_customHint;
+	player enableStamina false; // disable stamina
 	};
