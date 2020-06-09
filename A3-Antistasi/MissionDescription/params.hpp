@@ -60,7 +60,7 @@ class Params
           title = "Allow PvP Slots";
           values[] = {1,0};
           texts[] = {"Yes","No"};
-          default = 1;
+          default = 0;
      };
      class pMarkers
      {
@@ -80,7 +80,7 @@ class Params
      {
           title = "Number of the same item required to unlock";
           values[] = {15,25,40};
-          default = 25;
+          default = 5;
      };
      class memberOnlyMagLimit
      {
@@ -121,7 +121,7 @@ class Params
           title = "Fast Travel Targets Allowed";
           values[] = {0,1};
           texts[] = {"Any friendly position","Only Airports & HQ"};
-          default = 1;
+          default = 0;
      };
      class napalmEnabled
      {
@@ -135,7 +135,7 @@ class Params
           title = "Delay After Leaving Before a Player Can Join Another Team";
           values[] = {0, 900, 1800, 3600};
           texts[] = {"No delay","15 minutes","30 minutes","60 minutes"};
-          default = 3600;
+          default = 900;
      };
      class unlockedUnlimitedAmmo
      {
@@ -149,14 +149,14 @@ class Params
           title = "Should Guided Launchers become unlocked?";
           values[] = {1,0};
           texts[] =  {"Yes","No"};
-          default = 0;
+          default = 1;
      };
      class allowUnlockedExplosives
      {
           title = "Should Explosives become unlocked?";
           values[] = {1,0};
           texts[] =  {"Yes","No"};
-          default = 0;
+          default = 1;
      };
      class startWithLongRangeRadio
      {
@@ -282,7 +282,7 @@ class Params
 		  title = "[Experimental] Truely Random Crates: Remove all balance checks from Crates";
 		  values[] = {0, 1};
 		  texts[] = {"False", "True"};
-		  default = 0;
+		  default = 1;
 	 };
 	 class cratePlayerScaling
 	 {
