@@ -233,6 +233,7 @@ if (side group player == teamPlayer) then
 		];
 	[true] spawn A3A_fnc_reinitY;
 	[player] execVM "OrgPlayers\unitTraits.sqf";
+         player enableStamina false; // disable stamina
 	[] spawn A3A_fnc_statistics;
 	}
 else
