@@ -2,8 +2,8 @@ class CfgIdentities // Using Max_Women with permission - https://steamcommunity.
 {
   class protagonista
   {
-    name = "Kassandra";
-    nameSound = "Kassandra";
+    name = "Myrina";
+    nameSound = "Myrina";
     face="max_female1";
     glasses="None";
     speaker="Male01ENGB";
@@ -18,13 +18,13 @@ class CfgIdentities // Using Max_Women with permission - https://steamcommunity.
     speaker="Male02ENGB";
     pitch=1.4;
   };
-  class Jessica
+  class Kassandra
   {
-    name = "Jessica";
-    nameSound = "Jessica";
+    name = "Kassandra";
+    nameSound = "Kassandra";
     face="max_female3";
     glasses="None";
-    speaker="Male03ENGB";
+    speaker="Male04GRE";
     pitch=1.5;
   };
   class Adi
@@ -132,7 +132,7 @@ class CfgIdentities // Using Max_Women with permission - https://steamcommunity.
     nameSound = "Ursula";
     face="max_female15";
     glasses="None";
-    speaker="Male12ENG";
+    speaker="Male04GRE";
     pitch=1.5;
   };
   class Lara
@@ -141,7 +141,7 @@ class CfgIdentities // Using Max_Women with permission - https://steamcommunity.
     nameSound = "Lara";
     face="max_female16";
     glasses="None";
-    speaker="Male04GRE";
+    speaker="Male03ENGB";
     pitch=1.5;
   };
   class Jennifer
